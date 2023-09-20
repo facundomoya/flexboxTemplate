@@ -21,19 +21,51 @@ header {
   padding: 35px 0px;
 }
 
-.contenedor {
-  margin: 25px;
-}
-
 h2 {
   margin: 15px 0px;
 }
 
-.caja {
+.container {
+  margin: 25px;
+}
+
+.box {
   border: 2px solid black;
   text-align: center;
   padding: 5px 0px;
   width: 170px;
+}
+
+.order1 {
+  align-self: flex-start;
+}
+
+.order1 {
+  order: 2;
+}
+
+.order2 {
+  align-self: flex-start;
+}
+
+.order2 {
+  order: 4;
+}
+
+.order3 {
+  order: 1;
+}
+
+.order4 {
+  order: 3;
+}
+
+.order5 {
+  align-self: flex-end;
+}
+
+.order6 {
+  align-self: flex-end;
 }
 
 #box1 {
@@ -86,51 +118,51 @@ h2 {
   background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
 }
 
-#contenedorPadre{
-    display: flex;
+#parentcontainer {
+  display: flex;
 }
 
-#contenedorPadreColumna{
-    display: flex;
-    flex-direction: column;
-    background: lightblue;
+#columnparentcontainer {
+  display: flex;
+  flex-direction: column;
+  background: lightblue;
 }
 
-#contenedor-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    background: lightblue;
+#container-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  background: lightblue;
 }
 
-#contenedorPadreJustifyContentsb{
+#parentcontainerjustifycontent1 {
   display: flex;
   flex-direction: row;
   background: lightblue;
   justify-content: space-between;
 }
 
-#contenedorPadreJustifyContenfe{
+#parentcontainerjustifycontent2 {
   display: flex;
   flex-direction: row;
   background-color: lightblue;
   justify-content: flex-end;
 }
 
-#contenedorPadreJustifyContentsa{
+#parentcontainerjustifycontent3 {
   display: flex;
   flex-direction: row;
   background: lightblue;
   justify-content: space-around;
 }
 
-#contenedorPadreJustifyContentev{
+#parentcontainerjustifycontent4 {
   display: flex;
   flex-direction: row;
   background: lightblue;
   justify-content: space-evenly;
 }
 
-#contenedorPadreAlignItemsfe{
+#parentcontaineralignitems {
   height: 200px;
   display: flex;
   flex-direction: row;
@@ -138,7 +170,7 @@ h2 {
   align-items: flex-end;
 }
 
-#contenedorPadreAlignItemsJustifycontent{
+#parentcontaineralignitemsjustifycontent1 {
   height: 200px;
   display: flex;
   flex-direction: row;
@@ -148,7 +180,7 @@ h2 {
   justify-content: space-evenly;
 }
 
-#contenedorPadreAlignItemsJustifycontentalignself1{
+#parentcontaineralignitemsjustifycontent2 {
   height: 250px;
   display: flex;
   background: lightblue;
@@ -158,23 +190,7 @@ h2 {
   justify-content: space-evenly;
 }
 
-.orden1{
-  align-self: flex-start;
-}
-
-.orden2{
-  align-self: flex-start;
- }
-
-.orden5{
-  align-self: flex-end;
-}
-
-.orden6{
-  align-self: flex-end;
-}
-
-#contenedorPadreOrder{  
+#parentcontainerorder {
   height: 250px;
   display: flex;
   flex-direction: row;
@@ -184,41 +200,21 @@ h2 {
   justify-content: center;
 }
 
-.order1{
-  order: 2;
-}
-
-.order2{
-  order: 4;
-}
-
-.order3{
-  order: 1;
-}
-
-.order4{
-  order: 3;
-}
-
 /* media queries */
+@media all and (max-width: 319px) {
+  .box {
+    width: 35px;
+  }
+}
 
-/* cell phones */
-@media all and (min-width: 320px) and (max-width: 767px){
-  .caja{
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .box {
     width: 45px;
   }
 }
 
-/* tablets */
-@media all and (min-width: 768px) and (max-width: 991px){
-  .caja{
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .box {
     width: 95px;
-  }
-}
-
-/* extra small devices */
-@media all and (max-width: 319px){
-  .caja{
-    width: 35px;
   }
 }
