@@ -118,11 +118,11 @@ h2 {
   background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
 }
 
-#parentcontainer {
+#parent-container {
   display: flex;
 }
 
-#columnparentcontainer {
+#column-parent-container {
   display: flex;
   flex-direction: column;
   background: lightblue;
@@ -134,35 +134,35 @@ h2 {
   background: lightblue;
 }
 
-#parentcontainerjustifycontent1 {
+#flexbox-style1 {
   display: flex;
   flex-direction: row;
   background: lightblue;
   justify-content: space-between;
 }
 
-#parentcontainerjustifycontent2 {
+#flexbox-style2 {
   display: flex;
   flex-direction: row;
   background-color: lightblue;
   justify-content: flex-end;
 }
 
-#parentcontainerjustifycontent3 {
+#flexbox-style3 {
   display: flex;
   flex-direction: row;
   background: lightblue;
   justify-content: space-around;
 }
 
-#parentcontainerjustifycontent4 {
+#flexbox-style4 {
   display: flex;
   flex-direction: row;
   background: lightblue;
   justify-content: space-evenly;
 }
 
-#parentcontaineralignitems {
+#flexbox-style5 {
   height: 200px;
   display: flex;
   flex-direction: row;
@@ -170,7 +170,7 @@ h2 {
   align-items: flex-end;
 }
 
-#parentcontaineralignitemsjustifycontent1 {
+#flexbox-style6 {
   height: 200px;
   display: flex;
   flex-direction: row;
@@ -180,7 +180,7 @@ h2 {
   justify-content: space-evenly;
 }
 
-#parentcontaineralignitemsjustifycontent2 {
+#flexbox-style7 {
   height: 250px;
   display: flex;
   background: lightblue;
@@ -190,7 +190,7 @@ h2 {
   justify-content: space-evenly;
 }
 
-#parentcontainerorder {
+#flexbox-style8 {
   height: 250px;
   display: flex;
   flex-direction: row;

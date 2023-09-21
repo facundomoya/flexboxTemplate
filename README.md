@@ -7,6 +7,11 @@ Despite being a simple one-page site, it is fully responsive for all types of de
 
 The site only seeks to improve the practice of flexbox through the use of its properties. On the site you can see examples with most of its properties. They are little square containers that have numbers and different flexbox properties applied to them to align them in different ways. It does not have a *navbar* or *footer* since it is not necessary for the purpose of the site.
 
+## Git Branches
+
+In this project, we use a single branch. Here is an overview of that branch:
+
+**master:** The `master` branch is our main branch. In this example this single branch was used.
 
 ## Project Status
 
